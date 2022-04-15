@@ -5,4 +5,7 @@ branches:
 projects:
   CustomEntityLoader:
     path: ""
+    libs:
+      - src: muqsit/simplepackethandler/SimplePacketHandler
+        version: ^0.1.0
 ...
