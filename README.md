@@ -35,4 +35,4 @@ public function onsend(DataPacketSendEvent $event): void{
 }
 ```
 ## credit
-Plugin forked from https://github.com/Rush2929/CustomEntityLoader.
+This repository is a fork of https://github.com/Rush2929/CustomEntityLoader.
