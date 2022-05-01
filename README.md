@@ -1,5 +1,5 @@
 # CustomEntityLoader
-A plugin that simplifies the sending of `AvailableActorIdentifiersPacket`   
+A plugin that simplifies the sending of `AvailableActorIdentifiersPacket` by [Rush2929](https://github.com/Rush2929)   
 ## download
 Please note that the phar build of poggit ci is broken.  
 https://github.com/DaisukeDaisukeTeam/CustomEntityLoader/releases  
