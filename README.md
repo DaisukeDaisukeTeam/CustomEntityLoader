@@ -34,5 +34,27 @@ public function onsend(DataPacketSendEvent $event): void{
     }
 }
 ```
+```php
+/*
+use pocketmine\nbt\tag\CompoundTag;
+use pocketmine\nbt\tag\ListTag;
+use pocketmine\network\mcpe\cache\StaticPacketCache;
+*/
+public function onEnable(): void{
+	$add = CompoundTag::create();
+	$add->setString("bid", "");
+	$add->setByte("hasspawnegg", (int) false);
+	$add->setString("id", "test:test_entity");//entity identifier
+	//$add->setInt("rid", 200);
+	$add->setByte("summonable", (int) true);
+
+	/** @var CompoundTag $nbt */
+	//(StaticPacketCache)->(AvailableActorIdentifiersPacket)->(identifiers)->(CompoundTag)
+	$nbt = StaticPacketCache::getInstance()->getAvailableActorIdentifiers()->identifiers->getRoot();
+	/** @var ListTag $tag */
+	$tag = $nbt->getListTag("idlist");
+	$tag->push($add);
+}
+```
 ## credit
 This repository is a fork of https://github.com/Rush2929/CustomEntityLoader.
