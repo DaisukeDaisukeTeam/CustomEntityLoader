@@ -49,7 +49,6 @@ public function onEnable(): void{
 	$add->setByte("summonable", (int) true);
 
 	/** @var CompoundTag $nbt */
-	//(StaticPacketCache)->(AvailableActorIdentifiersPacket)->(identifiers)->(CompoundTag)
 	$nbt = StaticPacketCache::getInstance()->getAvailableActorIdentifiers()->identifiers->getRoot();
 	/** @var ListTag $tag */
 	$tag = $nbt->getListTag("idlist");
