@@ -57,3 +57,7 @@ public function onEnable(): void{
 ```
 ## credit
 This repository is a fork of https://github.com/Rush2929/CustomEntityLoader.
+
+## Notes
+- No behavior pack is required.
+- This plugin does not register entities with pmmp.
