@@ -61,3 +61,4 @@ This repository is a fork of https://github.com/Rush2929/CustomEntityLoader.
 ## Notes
 - No behavior pack is required.
 - This plugin does not register entities with pmmp.
+- Please note that the client ignores entities registered from global resources
