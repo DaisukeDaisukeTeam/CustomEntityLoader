@@ -62,3 +62,8 @@ This repository is a fork of https://github.com/Rush2929/CustomEntityLoader.
 - No behavior pack is required.
 - This plugin does not register entities with pmmp.
 - Please note that the client ignores entities registered from global resources
+
+## vs
+### Customies
+A PocketMine-MP plugin that implements support for custom blocks, items and entities.  
+https://github.com/CustomiesDevs/Customies  
